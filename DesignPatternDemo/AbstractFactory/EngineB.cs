@@ -4,11 +4,11 @@ using System.Text;
 
 namespace DesignPatternDemo.AbstractFactory
 {
-public class EngineB : IEngine
-{
-    public void Run()
+    public class EngineB : IEngine
     {
-        Console.WriteLine("this is engine b");
+        public void Run()
+        {
+            Console.WriteLine("this is engine b");
+        }
     }
-}
 }

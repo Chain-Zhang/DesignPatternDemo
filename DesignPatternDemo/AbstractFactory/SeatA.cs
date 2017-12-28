@@ -4,11 +4,11 @@ using System.Text;
 
 namespace DesignPatternDemo.AbstractFactory
 {
-public class SeatA : ISeat
-{
-    public void Message()
+    public class SeatA : ISeat
     {
-        Console.WriteLine("this is seat a");
+        public void Message()
+        {
+            Console.WriteLine("this is seat a");
+        }
     }
-}
 }

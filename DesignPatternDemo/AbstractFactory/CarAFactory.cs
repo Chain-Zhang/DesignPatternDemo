@@ -4,16 +4,16 @@ using System.Text;
 
 namespace DesignPatternDemo.AbstractFactory
 {
-public class CarAFactory : ICarFactory
-{
-    public IEngine CreateEngine()
+    public class CarAFactory : ICarFactory
     {
-        return new EngineA();
-    }
+        public IEngine CreateEngine()
+        {
+            return new EngineA();
+        }
 
-    public ISeat CreateSeat()
-    {
-        return new SeatA();
+        public ISeat CreateSeat()
+        {
+            return new SeatA();
+        }
     }
-}
 }
